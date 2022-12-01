@@ -28,9 +28,9 @@ public class App
         System.out.println("Digite a sua data de nascimento:");
         dataDeNascimento = LocalDate.parse(scanner.nextLine());
 
-        int idade = LocalDate.now().getYear() - dataDeNascimento.getYear();
 
-        System.out.println("Olá "+nome+" "+sobrenome+", sua idade é "+idade);
+
+
 
 
     }
